@@ -1,4 +1,4 @@
-cask "bm-tikdown" do
+cask "tikdown" do
   version "1.0.0"
   sha256 "9c0abc5a6e69a26aad2a6697f322766040fbbe77ed733f0c628377feae09b091"
 
