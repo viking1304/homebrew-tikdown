@@ -1,26 +1,26 @@
-# add TikDown tap
+### add TikDown tap
 ```
 brew tap Tairraos/tikdown
 ```
 
-# install TikDown
+### install TikDown
 ```
 brew install --cask tikdown
 ```
 
-# uninstall TikDown
+### uninstall TikDown
 ```
 brew uninstall --cask tikdown
 ```
 
 or
 
-# uninstall TikDown with zap
+### uninstall TikDown with zap
 ```
 brew uninstall --cask tikdown --zap
 ```
 
-# remove TikDown tap
+### remove TikDown tap
 ```
 brew untap Tairraos/tikdown
 ```
