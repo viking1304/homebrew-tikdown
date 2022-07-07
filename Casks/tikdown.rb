@@ -1,6 +1,6 @@
 cask "tikdown" do
-  version "1.0.0"
-  sha256 "9c0abc5a6e69a26aad2a6697f322766040fbbe77ed733f0c628377feae09b091"
+  version "1.0.1"
+  sha256 "b1f2eddbd95f5a50c9a8d3cf5ccf3cc4a4fb0aa8ca34dd45a72f47b1c3e6a330"
 
   url "https://github.com/Tairraos/TikDown/releases/download/v#{version}/Tikdown-#{version}.dmg"
   name "TikDown"
