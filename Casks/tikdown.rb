@@ -7,17 +7,11 @@ cask "tikdown" do
   desc "Tiktok/Douyin video downloader"
   homepage "https://github.com/Tairraos/TikDown/"
 
-  livecheck do
-    url :stable
-    regex(/^v?(\d+(?:\.\d+)+)$/i)
-  end
-
   app "Tikdown.app"
 
   zap trash: [
     "~/Library/Application Support/Tiktok Downloader",
     "~/Library/Preferences/com.tairraos.tikdown.plist",
-    "~/Library/Saved Application State/com.tairraos.tikdown.savedState"
+    "~/Library/Saved Application State/com.tairraos.tikdown.savedState",
   ]
-
 end
